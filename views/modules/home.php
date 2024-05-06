@@ -37,70 +37,36 @@
     </div>  
     
     <div class="row">
+      <div class="row">
 
-      <div class="col-lg-12">
+      <div class="col-lg-2" style="margin-left: 5rem">
+        <?php
+          include "home/shortcuts.php";
+        ?>
+      </div>
 
+
+      
+    </div>
+    <div class="col-lg-12">
+         
       <?php
 
-        if($_SESSION["profile"] =="Administrator"){
+      if($_SESSION["profile"] =="Special" || $_SESSION["profile"] =="Seller"){
 
-          include "reports/sales-graph.php";
+         echo '<div class="box box-default">
 
-        }
+         <div class="box-header">
+
+         <h1>Bem-Vindo ' .$_SESSION["name"].' </h1>
+
+         </div>
+
+         </div>';
+
+      }
 
       ?>
-      
-      </div>
-
-      <div class="col-lg-6">
-        
-        <?php
-
-          if($_SESSION["profile"] =="Administrator"){
-
-            include "reports/bestseller-products.php";
-
-          }
-
-        ?>
-
-      </div>  
-
-       <div class="col-lg-6">
-        
-        <?php
-
-          if($_SESSION["profile"] =="Administrator"){
-
-            include "home/recent-products.php";
-
-          }
-
-        ?>
-
-      </div>
-
-      <div class="col-lg-12">
-           
-        <?php
-
-        if($_SESSION["profile"] =="Special" || $_SESSION["profile"] =="Seller"){
-
-           echo '<div class="box box-default">
-
-           <div class="box-header">
-
-           <h1>Bem-Vindo ' .$_SESSION["name"].' ❤</h1>
-
-           </div>
-
-           </div>';
-
-        }
-
-        ?>
-
-      </div>
 
     </div>
 
