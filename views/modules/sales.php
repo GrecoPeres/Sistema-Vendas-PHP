@@ -143,15 +143,7 @@ if($xml){
 
                     <div class="btn-group">
                         
-                      <div class="btn-group">
-
-                      <a class="btn btn-success" href="index.php?route=sales&xml='.$value["code"].'">xml</a>
-                        
-                      <button class="btn btn-warning btnPrintBill" saleCode="'.$value["code"].'">
-
-                        <i class="fa fa-print"></i>
-
-                      </button>';
+                      <div class="btn-group">';
 
                        if($_SESSION["profile"] == "Administrator(a)"){
                         
