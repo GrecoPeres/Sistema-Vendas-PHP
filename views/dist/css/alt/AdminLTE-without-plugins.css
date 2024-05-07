@@ -1436,7 +1436,7 @@ a:focus {
 }
 .progress-bar-red,
 .progress-bar-danger {
-  background-color: #dd4b39;
+  background-color: #203680;
 }
 .progress-striped .progress-bar-red,
 .progress-striped .progress-bar-danger {
@@ -1626,7 +1626,7 @@ a:focus {
 .box.box-solid.box-danger > .box-header {
   color: #ffffff;
   background: #dd4b39;
-  background-color: #dd4b39;
+  background-color: #203680;
 }
 .box.box-solid.box-danger > .box-header a,
 .box.box-solid.box-danger > .box-header .btn {
@@ -2257,7 +2257,7 @@ a:focus {
   background-color: #00acd6;
 }
 .btn-danger {
-  background-color: #dd4b39;
+  background-color: #203680;
   border-color: #d73925;
 }
 .btn-danger:hover,

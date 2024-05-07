@@ -6,7 +6,7 @@
 
 			<?php
 
-			if ($_SESSION["profile"] == "Administrator") {
+			if ($_SESSION["profile"] == "Administrator(a)") {
 				
 				echo '
 
@@ -27,7 +27,7 @@
 				';
 			}
 
-			if($_SESSION["profile"] == "Administrator" || $_SESSION["profile"] == "Special"){
+			if($_SESSION["profile"] == "Administrator(a)" || $_SESSION["profile"] == "Gerente"){
 
 				echo '
 
@@ -58,7 +58,7 @@
 
 			}
 
-			if($_SESSION["profile"] == "Administrator" || $_SESSION["profile"] == "Seller"){
+			if($_SESSION["profile"] == "Administrator(a)" || $_SESSION["profile"] =="Vendedor(a)"){
 				echo '
 					
 					<li>
@@ -76,7 +76,7 @@
 				';
 			}
 
-			if($_SESSION["profile"] == "Administrator" || $_SESSION["profile"] == "Seller"){
+			if($_SESSION["profile"] == "Administrator(a)" || $_SESSION["profile"] =="Vendedor(a)"){
 
 			echo'
 
@@ -125,21 +125,9 @@
 
 				}
 
-				if($_SESSION["profile"] == "Administrator"){
+				if($_SESSION["profile"] == "Administrator(a)"){
 
-					echo '<li>
-
-						<a href="reports">
-
-							<i class="fa fa-file"></i>
-
-							<span>Relatório de vendas</span>
-
-						</a>
-
-					</li>
-					
-					
+					echo '
 					<li>
 
 						<a href="users">

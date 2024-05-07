@@ -70,7 +70,7 @@ class productsTable{
 		  			/*=============================================
 		 	 		BOTÕES DE AÇÕES
 		  			=============================================*/ 
-		  			if (isset($_GET["hiddenProfile"]) && $_GET["hiddenProfile"] == "Special") {
+		  			if (isset($_GET["hiddenProfile"]) && $_GET["hiddenProfile"] == "Gerente") {
 		  				$buttons =  "<div class='btn-group'><button class='btn btn-primary btnEditProduct' idProduct='".$products[$i]["id"]."' data-toggle='modal' data-target='#modalEditProduct'><i class='fa fa-pencil'></i></button></div>";
 		  			}
 		  			else{
@@ -84,9 +84,9 @@ class productsTable{
 						"'.$products[$i]["description"].'",
 						"'.$categories["Category"].'",
 						"'.$stock.'",
-						"$ '.$products[$i]["buyingPrice"].'",
-						"$ '.$products[$i]["sellingPrice"].'",
-						"'.$products[$i]["date"].'",
+						"R$ '.$products[$i]["buyingPrice"].'",
+						"R$ '.$products[$i]["sellingPrice"].'",
+						"'.(new DateTime($products[$i]["date"]))->format('d/m/Y H:i:s').'",
 						"'.$buttons.'"
 					],';
 				}

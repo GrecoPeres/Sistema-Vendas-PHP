@@ -143,7 +143,7 @@
         HEADER
         ======================================-->
 
-        <div class="modal-header" style="background: #DD4B39; color: #fff">
+        <div class="modal-header" style="background: #203680; color: #fff">
 
           <button type="button" class="close" data-dismiss="modal">&times;</button>
 
@@ -208,9 +208,9 @@
                 <select class="form-control input-lg" name="newProfile">
 
                   <option value="">Selecione o nível</option>
-                  <option value="administrador">Administrador</option>
+                  <option value="Administrator(a)">Administrator(a)</option>
                   <option value="especial">Especial</option>
-                  <option value="vendedor">Vendedor(a)</option>
+                  <option value="vendedor">$_SESSION["profile"] =="Vendedor(a)"</option>
 
                 </select>
 
@@ -279,7 +279,7 @@
         HEADER
         ======================================-->
 
-        <div class="modal-header" style="background: #DD4B39; color: #fff">
+        <div class="modal-header" style="background: #203680; color: #fff">
 
           <button type="button" class="close" data-dismiss="modal">&times;</button>
 
@@ -346,7 +346,7 @@
                 <select class="form-control input-lg" name="EditProfile">
 
                   <option value="" id="EditProfile"></option>
-                  <option value="administrador">Administrador</option>
+                  <option value="Administrator(a)">Administrator(a)</option>
                   <option value="especial">Especial</option>
                   <option value="vendedor">Vendendor(a)</option>
 

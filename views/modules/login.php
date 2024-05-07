@@ -4,7 +4,7 @@
 
   <div class="login-logo">
 
-    <img class="img-responsive" src="views/img/template/logo-blanco-bloque.png" style="padding: 30px 100px 0 100px">
+    <img class="img-responsive" src="views/img/template/logo-greco-branca.png" style="padding: 30px 100px 0 100px">
 
   </div>
 
@@ -36,6 +36,10 @@
 
           <button type="submit" class="btn btn-success btn-block btn-flat">Entrar</button>
 
+        </div>
+
+        <div class="col-xs-8 text-right">
+          <a href="forgot-password.php" class="btn btn-link">Esqueceu a senha?</a>
         </div>
        
       </div>

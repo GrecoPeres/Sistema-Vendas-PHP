@@ -1,6 +1,6 @@
 <?php
 
-if($_SESSION["profile"] == "Special"){
+if($_SESSION["profile"] == "Gerente"){
 
   echo '<script>
 
@@ -100,9 +100,9 @@ if($_SESSION["profile"] == "Special"){
 
                       <td>'.$value["purchases"].'</td>
 
-                      <td>'.$value["lastPurchase"].'</td>
+                      <td>'.(new DateTime($value["lastPurchase"]))->format('d/m/Y H:i:s').'</td>
 
-                      <td>'.$value["registerDate"].'</td>
+                      <td>'.(new DateTime($value["registerDate"]))->format('d/m/Y H:i:s').'</td>
 
                       <td>
 
@@ -150,7 +150,7 @@ MODAL ADICIONAR CLIENTE
         MODAL HEADER
         ======================================-->
 
-        <div class="modal-header" style="background: #DD4B39; color: #fff">
+        <div class="modal-header" style="background: #203680; color: #fff">
           
           <button type="button" class="close" data-dismiss="modal">&times;</button>
           
@@ -264,7 +264,7 @@ MODAL EDITAR CLIENTE
         MODAL HEADER
         ======================================-->
 
-        <div class="modal-header" style="background:#DD4B39; color:white">
+        <div class="modal-header" style="background:#203680; color:white;">
 
           <button type="button" class="close" data-dismiss="modal">&times;</button>
 

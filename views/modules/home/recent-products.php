@@ -55,7 +55,7 @@ $products = ControllerProducts::ctrShowProducts($item, $value, $order);
 
             '.$products[$i]["description"].'
 
-            <span class="label label-warning pull-right">$'.$products[$i]["sellingPrice"].'</span>
+            <span class="label label-warning pull-right">R$ '.$products[$i]["sellingPrice"].'</span>
 
           </a>
     

@@ -58,10 +58,10 @@
             <tr>
               
               <td>1</td>
-              <td>Administrador do usuário</td>
+              <td>Administrator(a) do usuário</td>
               <td>admin</td>
               <td><img src="views/img/users/default/anonymous.png" class="img-thumbnail" width="40px"></td>
-              <td>Administrador</td>
+              <td>Administrator(a)</td>
               <td><button class="btn btn-success btn-xs">Ativo</button></td>
               <td>21-03-2024 12:05:32</td>
               <td>
@@ -81,10 +81,10 @@
             <tr>
               
               <td>2</td>
-              <td>Administrador do usuário</td>
+              <td>Administrator(a) do usuário</td>
               <td>admin</td>
               <td><img src="views/img/users/default/anonymous.png" class="img-thumbnail" width="40px"></td>
-              <td>Administrator</td>
+              <td>Administrator(a)</td>
               <td><button class="btn btn-success btn-xs">Ativo</button></td>
               <td>21-02-2024 12:05:32</td>
               <td>
@@ -104,10 +104,10 @@
              <tr>
               
               <td>3</td>
-              <td>Administrador do usuário</td>
+              <td>Administrator(a) do usuário</td>
               <td>admin</td>
               <td><img src="views/img/users/default/anonymous.png" class="img-thumbnail" width="40px"></td>
-              <td>Administrador</td>
+              <td>Administrator(a)</td>
               <td><button class="btn btn-success btn-xs">Ativo</button></td>
               <td>21-04-2024 12:05:32</td>
               <td>
@@ -156,7 +156,7 @@
         HEADER
         ======================================-->
 
-        <div class="modal-header" style="background: #DD4B39; color: #fff">
+        <div class="modal-header" style="background: #203680; color: #fff">
 
           <button type="button" class="close" data-dismiss="modal">&times;</button>
 
@@ -225,9 +225,9 @@
                 <select class="form-control input-lg" name="newProfile">
 
                   <option value="">Selecione o perfil</option>
-                  <option value="administrador">Administrador</option>
+                  <option value="Administrator(a)">Administrator(a)</option>
                   <option value="especial">Especial</option>
-                  <option value="vendedor">Vendedor(a)</option>
+                  <option value="vendedor">$_SESSION["profile"] =="Vendedor(a)"</option>
 
                 </select>
 

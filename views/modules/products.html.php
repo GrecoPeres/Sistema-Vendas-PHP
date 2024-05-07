@@ -136,7 +136,7 @@
         HEADER
         ======================================-->
 
-        <div class="modal-header" style="background: #DD4B39; color: #fff">
+        <div class="modal-header" style="background: #203680; color: #fff">
 
           <button type="button" class="close" data-dismiss="modal">&times;</button>
 

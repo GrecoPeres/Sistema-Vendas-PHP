@@ -1,6 +1,6 @@
 <?php
 
-if($_SESSION["profile"] == "Special"){
+if($_SESSION["profile"] == "Gerente"){
 
   echo '<script>
 
@@ -133,11 +133,11 @@ if($xml){
 
                   <td>'.$value["paymentMethod"].'</td>
 
-                  <td>R$ '.number_format($value["netPrice"],2).'</td>
+                  <td>R$ '.number_format($value["netPrice"], 2, ',', '.').'</td>
 
-                  <td>R$ '.number_format($value["totalPrice"],2).'</td>
+                  <td>R$ '.number_format($value["totalPrice"], 2, ',', '.').'</td>
 
-                  <td>'.$value["saledate"].'</td>
+                  <td>'.(new DateTime($value["saledate"]))->format('d/m/Y H:i:s').'</td>
 
                   <td>
 
@@ -153,7 +153,7 @@ if($xml){
 
                       </button>';
 
-                       if($_SESSION["profile"] == "Administrator"){
+                       if($_SESSION["profile"] == "Administrator(a)"){
                         
                          echo '<button class="btn btn-primary btnEditSale" idSale="'.$value["id"].'"><i class="fa fa-pencil"></i></button>
 

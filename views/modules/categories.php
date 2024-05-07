@@ -1,6 +1,6 @@
 <?php
 
-if($_SESSION["profile"] == "Seller"){
+if($_SESSION["profile"] =="Vendedor(a)"){
 
   echo '<script>
 
@@ -110,7 +110,7 @@ if($_SESSION["profile"] == "Seller"){
     <!-- Modal content-->
     <div class="modal-content">
       <form role="form" method="POST">
-        <div class="modal-header" style="background: #DD4B39; color: #fff">
+        <div class="modal-header" style="background: #203680; color: #fff">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h4 class="modal-title">Adicionar categorias</h4>
         </div>
@@ -155,7 +155,7 @@ if($_SESSION["profile"] == "Seller"){
     <!-- Modal content-->
     <div class="modal-content">
       <form role="form" method="POST">
-        <div class="modal-header" style="background: #DD4B39; color: #fff">
+        <div class="modal-header" style="background: #203680; color: #fff">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h4 class="modal-title">Editar Categorias</h4>
         </div>
