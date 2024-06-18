@@ -58,10 +58,10 @@
             <tr>
               
               <td>1</td>
-              <td>Administrator(a) do usuário</td>
+              <td>Administrador do usuário</td>
               <td>admin</td>
               <td><img src="views/img/users/default/anonymous.png" class="img-thumbnail" width="40px"></td>
-              <td>Administrator(a)</td>
+              <td>Administrador</td>
               <td><button class="btn btn-success btn-xs">Ativo</button></td>
               <td>21-03-2024 12:05:32</td>
               <td>
@@ -81,10 +81,10 @@
             <tr>
               
               <td>2</td>
-              <td>Administrator(a) do usuário</td>
+              <td>Administrador do usuário</td>
               <td>admin</td>
               <td><img src="views/img/users/default/anonymous.png" class="img-thumbnail" width="40px"></td>
-              <td>Administrator(a)</td>
+              <td>Administrador</td>
               <td><button class="btn btn-success btn-xs">Ativo</button></td>
               <td>21-02-2024 12:05:32</td>
               <td>
@@ -104,10 +104,10 @@
              <tr>
               
               <td>3</td>
-              <td>Administrator(a) do usuário</td>
+              <td>Administrador do usuário</td>
               <td>admin</td>
               <td><img src="views/img/users/default/anonymous.png" class="img-thumbnail" width="40px"></td>
-              <td>Administrator(a)</td>
+              <td>Administrador</td>
               <td><button class="btn btn-success btn-xs">Ativo</button></td>
               <td>21-04-2024 12:05:32</td>
               <td>
@@ -225,7 +225,7 @@
                 <select class="form-control input-lg" name="newProfile">
 
                   <option value="">Selecione o perfil</option>
-                  <option value="Administrator(a)">Administrator(a)</option>
+                  <option value="Administrador">Administrador</option>
                   <option value="especial">Especial</option>
                   <option value="vendedor">$_SESSION["profile"] =="Vendedor(a)"</option>
 

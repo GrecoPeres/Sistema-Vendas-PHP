@@ -26,7 +26,7 @@
       
       <?php
 
-        if($_SESSION["profile"] =="Administrator(a)"){
+        if($_SESSION["profile"] =="Administrador"){
 
           include "home/top-boxes.php";
 
@@ -42,7 +42,7 @@
 
       <?php
         // Gráficos de Vendas 
-        // if($_SESSION["profile"] =="Administrator(a)"){
+        // if($_SESSION["profile"] =="Administrador"){
 
         //   include "reports/sales-graph.php";
 
@@ -56,7 +56,7 @@
         
         <?php
           // Gráfico de produtos mais vendidos
-          // if($_SESSION["profile"] =="Administrator(a)"){
+          // if($_SESSION["profile"] =="Administrador"){
 
           //   include "reports/bestseller-products.php";
 
@@ -70,7 +70,7 @@
         
         <?php
           //Gráfico de produtos adicionados recentementes
-          // if($_SESSION["profile"] =="Administrator(a)"){
+          // if($_SESSION["profile"] =="Administrador"){
 
           //   include "home/recent-products.php";
 

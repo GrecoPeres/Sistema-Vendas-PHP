@@ -145,7 +145,7 @@ if($xml){
                         
                       <div class="btn-group">';
 
-                       if($_SESSION["profile"] == "Administrator(a)"){
+                       if($_SESSION["profile"] == "Administrador"){
                         
                          echo '<button class="btn btn-primary btnEditSale" idSale="'.$value["id"].'"><i class="fa fa-pencil"></i></button>
 

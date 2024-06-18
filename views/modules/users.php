@@ -208,9 +208,9 @@
                 <select class="form-control input-lg" name="newProfile">
 
                   <option value="">Selecione o nível</option>
-                  <option value="Administrator(a)">Administrator(a)</option>
-                  <option value="especial">Especial</option>
-                  <option value="vendedor">$_SESSION["profile"] =="Vendedor(a)"</option>
+                  <option value="Administrador">Administrador</option>
+                  <option value="Gerente">Gerente</option>
+                  <option value="Vendedor(a)">Vendedor(a)</option>
 
                 </select>
 
@@ -346,9 +346,9 @@
                 <select class="form-control input-lg" name="EditProfile">
 
                   <option value="" id="EditProfile"></option>
-                  <option value="Administrator(a)">Administrator(a)</option>
-                  <option value="especial">Especial</option>
-                  <option value="vendedor">Vendendor(a)</option>
+                  <option value="Administrador">Administrador</option>
+                  <option value="Gerente">Gerente</option>
+                  <option value="Vendendor(a)">Vendendor(a)</option>
 
                 </select>
 
