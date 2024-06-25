@@ -128,32 +128,18 @@
       =            Content          =
       =============================================*/ 
 
-      if(isset($_GET["route"])){
-
-        if ($_GET["route"] == 'home' || 
-            $_GET["route"] == 'users' ||
-            $_GET["route"] == 'categories' ||
-            $_GET["route"] == 'products' ||
-            $_GET["route"] == 'customers' ||
-            $_GET["route"] == 'sales' ||
-            $_GET["route"] == 'create-sale' ||
-            $_GET["route"] == 'edit-sale' ||
-            $_GET["route"] == 'reports' ||
-            $_GET["route"] == 'logout'){
-
-          include "modules/".$_GET["route"].".php";
-
-        }else{
-
-           include "modules/404.php";
+      if (isset($_GET["route"])) {
+        $route = $_GET["route"];
+        $validRoutes = ['home', 'users', 'categories', 'products', 'customers', 'sales', 'create-sale', 'edit-sale', 'reports', 'logout'];
         
+        if (in_array($route, $validRoutes)) {
+            include "modules/$route.php";
+        } else {
+            include "modules/404.php";
         }
-
-      }else{
-
+    } else {
         include "modules/home.php";
-      
-      }
+    }
  
       /*=============================================
       =            Footer          =
