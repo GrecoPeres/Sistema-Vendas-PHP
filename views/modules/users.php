@@ -208,7 +208,7 @@
                 <select class="form-control input-lg" name="newProfile">
 
                   <option value="">Selecione o nível</option>
-                  <option value="Administrador">Administrador</option>
+                  <option value="Administrador(a)">Administrador(a)</option>
                   <option value="Gerente">Gerente</option>
                   <option value="Vendedor(a)">Vendedor(a)</option>
 
@@ -346,7 +346,7 @@
                 <select class="form-control input-lg" name="EditProfile">
 
                   <option value="" id="EditProfile"></option>
-                  <option value="Administrador">Administrador</option>
+                  <option value="Administrador(a)">Administrador(a)</option>
                   <option value="Gerente">Gerente</option>
                   <option value="Vendendor(a)">Vendendor(a)</option>
 
